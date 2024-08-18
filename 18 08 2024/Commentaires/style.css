@@ -1,86 +1,90 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f3f4f6;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .post-container {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 400px;
-    padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  padding: 20px;
 }
 
 .post-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 15px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
 
 .post .auth-name {
-    margin-top: 0;
-    font-size: 0.7em;
-    color: #333;
-    font-style: italic;
+  margin-top: 0;
+  font-size: 0.7em;
+  color: #333;
+  font-style: italic;
 }
 
 .post p {
-    font-size: 1em;
-    color: #555;
+  font-size: 1em;
+  color: #555;
 }
 
 .comment-section {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .comment-section h3 {
-    margin-bottom: 10px;
-    font-size: 1.2em;
-    color: #333;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #333;
 }
 
 #comment-list {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 #comment-list li {
-    display: flex;
-    align-items: center;
-    background-color: #f0f0f0;
-    border-radius: 4px;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 0.9em;
-    color: #555;
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  color: #555;
 }
 
 #comment-input {
-    width: 95%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    font-size: 0.9em;
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 0.9em;
 }
 
 #add-comment-btn {
-    background-color: #007bff;
-    color: #ffffff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.9em;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
 }
+#add-comment-btn.disabled {
+  background-color: gray !important;
 
+  cursor: none !important;
+}
 #add-comment-btn:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
